@@ -1,6 +1,6 @@
 {
   "name": "copy-object-with-param",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "copy object with param",
   "main": "index.js",
   "repository": "git@github.com:watercat12/CloneObject.git",
