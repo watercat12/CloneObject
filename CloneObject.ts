@@ -1,4 +1,4 @@
-class ObjectHelper<T> {
+export class ObjectHelper<T> {
   constructor(dataSource: T) {
     this.dataSource = dataSource
   }
