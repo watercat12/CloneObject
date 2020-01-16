@@ -1,2 +1,2 @@
 export declare function ObHelp():void
-export declare class ObjectHelper{}
+export declare var ObjectHelper;
