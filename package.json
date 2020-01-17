@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": null,
   "dependencies": {
-    "@types/node": "12.12.7"
+    "@types/node": "12.12.7",
+    "rollup": "^1.29.0",
+    "typescript": "^3.6.4"
   },
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^2.2.0",
@@ -18,5 +20,6 @@
   "scripts": {
     "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
     "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
-  }
+  },
+  "types": "index.d.ts"
 }
