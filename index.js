@@ -104,5 +104,5 @@ var ObjectHelper = /** @class */ (function () {
     };
     return ObjectHelper;
 }());
-exports.ObjectHelper = ObjectHelper;
+exports.default = ObjectHelper;
 //# sourceMappingURL=index.js.map
