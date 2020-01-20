@@ -15,7 +15,8 @@
     "rollup-plugin-typescript2": "^0.25.3"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublishOnly": "yarn build"
   },
   "types": "index.d.ts"
 }
