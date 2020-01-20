@@ -1,6 +1,6 @@
 {
   "name": "copy-object-with-param",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "copy object with param",
   "main": "index.js",
   "repository": "git@github.com:watercat12/CloneObject.git",
@@ -15,8 +15,7 @@
     "rollup-plugin-typescript2": "^0.25.3"
   },
   "scripts": {
-    "build": "rollup -c",
-    "prepublishOnly": "yarn build"
+    "build": "rollup -c"
   },
   "types": "index.d.ts"
 }
