@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "es2015",
     "target": "es5",
+    "declaration": true,
     "sourceMap": true,
+    "outDir": "..",
     "lib": [
       "dom",
       "es5",
@@ -10,7 +12,9 @@
       "es2015.symbol"
     ]
   },
+  "moduleResolution": "node",
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "example"
   ]
 }

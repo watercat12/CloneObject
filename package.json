@@ -6,20 +6,16 @@
   "repository": "git@github.com:watercat12/CloneObject.git",
   "author": "LocNguyen <locnguyen@teqnological.asia>",
   "license": "MIT",
-  "private": null,
   "dependencies": {
     "@types/node": "12.12.7",
-    "rollup": "^1.29.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.5"
   },
   "devDependencies": {
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "rollup": "^1.29.0",
+    "rollup-plugin-typescript2": "^0.25.3"
   },
   "scripts": {
-    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
-    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+    "build": "rollup -c"
   },
   "types": "index.d.ts"
 }
