@@ -29,3 +29,4 @@ Temporary Items
 .idea
 node_modules
 output/example.d.ts
+package-lock.json

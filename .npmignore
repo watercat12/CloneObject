@@ -7,3 +7,4 @@ tsconfig.json
 *.log
 yarn.lock
 output/example.d.ts
+package-lock.json
