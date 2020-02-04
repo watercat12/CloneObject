@@ -70,8 +70,10 @@ var ObjectHelper = /** @class */ (function () {
     };
     ObjectHelper.prototype.setData = function (dataSource, key, value) {
         var _a;
-        if (!dataSource.hasOwnProperty(key) || typeof dataSource[key] !== typeof value) {
-            console.error("key " + key + " of dataSource is not same type with param Value OR not found in dataSource");
+        var typeDataKey = typeof dataSource[key];
+        var typeParam = typeof value;
+        if (!dataSource.hasOwnProperty(key) || typeDataKey !== typeParam) {
+            console.error("key " + key + "[" + typeDataKey + "] of dataSource is not same type with param Value[" + typeParam + "] OR not found in dataSource");
             return;
         }
         if (typeof value === "object") {

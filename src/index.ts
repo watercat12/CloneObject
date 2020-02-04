@@ -42,9 +42,11 @@ class ObjectHelper<T> {
     return target
   }
 
-  private setData(dataSource: any, key: string, value?: any): ObjectHelper<T> {
-    if (!dataSource.hasOwnProperty(key) || typeof dataSource[key] !== typeof value) {
-      console.error(`key ${key} of dataSource is not same type with param Value OR not found in dataSource`)
+  private setData(dataSource: any, key: string, value: any): ObjectHelper<T> {
+    const typeDataKey = typeof dataSource[key]
+    const typeParam = typeof value
+    if (!dataSource.hasOwnProperty(key) || typeDataKey !== typeParam) {
+      console.error(`key ${key}[${typeDataKey}] of dataSource is not same type with param Value[${typeParam}] OR not found in dataSource`)
       return
     }
     if (typeof value === "object") {

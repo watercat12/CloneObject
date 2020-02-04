@@ -6,3 +6,4 @@ rollup.config.js
 tsconfig.json
 *.log
 yarn.lock
+output/example.d.ts
