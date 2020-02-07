@@ -1,3 +1,6 @@
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+
 # **Installation**
 ```
 npm install copy-object-with-param
