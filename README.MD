@@ -1,3 +1,8 @@
+# **Installation**
+```
+npm install copy-object-with-param
+```
+
 # **Old**
 
 ```typescript
